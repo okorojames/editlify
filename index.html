@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="upload_row">
+       <form>
+        <label for="file-upload">
+          <i class="fa-regular fa-image"></i>
+        </label>
+        <input type="file" accept="image/*" id="file-upload">
+    </form>
+    
+    <label for="file-upload" class="upload_file_btn">Upload File</label>
+  </div>
+  
+  <!-- image preview here -->
+  <div class="img_preview_container">
+  <img class="image_preview"/>
+  </div>
+  
+  <div class="progress_input_container">
+    <div>
+    <label for="progress_input">Border Radius</label>
+  <input type="range" name="" id="progress_input" value="0" max="30" />
+    </div>
+    <!---->
+    <div>
+    <label for="color_input">Border Colour</label>
+  <input type="color" name="" value="#ff2b32" id="colour_input" />
+    </div>
+    
+    <div>
+      <div class="data-display"></div>
+    </div>
+    
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
