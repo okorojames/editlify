@@ -19,6 +19,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
+    margin-bottom: 100px;
 }
 
 img{
@@ -44,11 +45,15 @@ img{
   gap: 1rem;
 }
 
-.upload_row label{
-  display: inline-block;
+.first-img-upload-label{
+  display: flex;
+  justify-content: center;
   border: 1.3px dashed var(--red-one);
   border-radius: .8rem;
   padding: 4rem;
+  width: 250px;
+  height: 100px;
+  align-items: center;
 }
 
 label i{
