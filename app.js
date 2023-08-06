@@ -22,5 +22,5 @@ progress_input.addEventListener("input", (e)=>{
 const colour_input = document.querySelector("#colour_input")
 
 colour_input.addEventListener("input", (e)=>{
-  imgPreview.style.border = `4.5px solid ${e.target.value}`
+  imgPreview.style.border = `8px solid ${e.target.value}`
 })
